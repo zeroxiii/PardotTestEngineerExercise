@@ -389,7 +389,6 @@ public class PardotTest
 		
 		driver.get(pardotURL + "/user/logout");
 		assertEquals("Sign In - Pardot", driver.getTitle());
-		//block.until(ExpectedConditions.titleIs("Sign In - Pardot"));
 		
 		System.out.println("Step 10: Logout - Pass");
 	}
