@@ -19,6 +19,8 @@ Thank you for taking the time out of your day to speak with me about the Softwar
 
 ## Instructions
 
+TBD: Below instructions are not correct.  Proper build instructions will be available soon.
+
 1. Download either the entire repo.
 
 2. On a computer running the latest version of Java (Note: this program was compiled using Java Version 1.8.0_71) and Mozilla FireFox installed, open up terminal or command prompt and navigate to the directory housing the PardotTest.java and PardotTestRunner.java file.
