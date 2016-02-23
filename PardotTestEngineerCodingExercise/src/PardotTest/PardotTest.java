@@ -1,3 +1,10 @@
+/* Pardot Software Engineer in Test Exercise
+ * Candidate: Rahmaan Lodhia
+ * PardotTest Class
+ * Description: Contains all test cases requried in assignment
+ */
+
+
 package PardotTest;
 
 import static org.junit.Assert.*;

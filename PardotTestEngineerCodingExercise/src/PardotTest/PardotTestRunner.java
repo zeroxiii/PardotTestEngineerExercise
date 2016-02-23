@@ -1,3 +1,10 @@
+/* Pardot Software Engineer in Test Exercise
+ * Candidate: Rahmaan Lodhia
+ * PardotTestRunner Class
+ * Description: Executes all test cases in PardotTest class
+ */
+
+
 package PardotTest;
 
 import org.junit.runner.JUnitCore;
