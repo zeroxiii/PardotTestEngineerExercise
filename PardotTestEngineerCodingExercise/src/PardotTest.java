@@ -4,9 +4,6 @@
  * Description: Contains all test cases required in assignment
  */
 
-
-package PardotTest;
-
 import static org.junit.Assert.*;
 
 import java.util.concurrent.TimeUnit;
