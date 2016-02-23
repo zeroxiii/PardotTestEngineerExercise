@@ -19,20 +19,28 @@ Thank you for taking the time out of your day to speak with me about the Softwar
 
 ## Instructions
 
-TBD: Below instructions are not correct.  Proper build instructions will be available soon.
-
+Run via Eclipse IDE:
 1. Download either the entire repo.
 
-2. On a computer running the latest version of Java (Note: this program was compiled using Java Version 1.8.0_71) and Mozilla FireFox installed, open up terminal or command prompt and navigate to the directory housing the PardotTest.java and PardotTestRunner.java file.
+2. On a computer, download the latest version of Java (Note: this program was compiled using Java Version 1.8.0_71), Mozilla FireFox, and Eclipse for Java (For the creation of these files, the Eclipse IDE for Java was used; however, any IDE should work the same way with similar steps).
 
-3. Compile the program first with the following command:  
-**javac PardotTest.java PardotTestRunner.java**
+3. Launch Eclipse (or any IDE) and select any workspace to work in.
 
-4. The PardotTest.class and PardotTestRunner.class will be created in the working directory, and you can now run the java program with the following command:  
-**java PardotTestRunner**  
+4. Create a new project via File -> New -> JavaProject and name it "Lodhia_Pardot_Test" (or anything else).  Click "Finish". (NOTE: If you already have Selenium jars configured in the build path, you skip to step 7)
+
+5. Right click the created project and click "Properties". Click on "Java Build Path" and in the new window, click on "Libraries".
+
+6. In the "Libraries" menu, click "Add External JARS" and navigate to the "selenium-2.52.0" folder in the downloaded repo folder structure.  Select from this folder all *.jar files in the directory and /lib folder levels and click open in the window.  All the selected jars should appear in the "Libraries" window.  Click "OK" to close the window.
+
+7. Right-click the src folder in the project view and click "Import".  Select "General"->"File System".  In the "From Directory" box, browse to the "src" folder in the downloaded repo and select ok.  Verify that the IDE recognizes the two java files "PardotTest.java" and "PardotTestRunner.java" to be added.  Select them and click "Finish".
+
+8. Run the program by selecting PardotTestRunner and clicking the run command.  The program will run all the test functions listed in PardotTest.java in order via Mozilla FireFox.
+
+9. The program can also be run via PardotTest.java.  Running this in the IDE will run the JUnit test cases and show the output of the JUnit tests as well.
 
 ## Outputs
 
+Console Output:
 Step 1: Login - Starting  
 Step 1: Login - Pass  
 Step 2: Creating a list with a random Name - Starting  
