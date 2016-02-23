@@ -20,7 +20,8 @@ Thank you for taking the time out of your day to speak with me about the Softwar
 ## Instructions
 
 Run via Eclipse IDE:
-1. Download either the entire repo.
+
+1. Download the entire repo to your computer and note its location.
 
 2. On a computer, download the latest version of Java (Note: this program was compiled using Java Version 1.8.0_71), Mozilla FireFox, and Eclipse for Java (For the creation of these files, the Eclipse IDE for Java was used; however, any IDE should work the same way with similar steps).
 
